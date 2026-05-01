@@ -69,8 +69,8 @@ services:
     ports:
       - ____
     environment:
-      # Nama host di URL tetap 'db' karena merujuk pada nama service dalam network yang sama
-      DATABASE_URL: postgresql://user:password@NAMA_HOST_DB:5432/NAMA_DATABSE
+      # Environment Aplikasi
+      DATABASE_URL: postgresql://USERNAME_DATABASE:PASSWORD_DATABASE@NAMA_HOST/DNS_DB:5432/NAMA_DATABSE
     # Networks untuk postgres & aplikasi agar terhubung
     networks:
       - ___
