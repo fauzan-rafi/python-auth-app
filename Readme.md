@@ -72,7 +72,7 @@ services:
       - ____
     environment:
       # Environment Aplikasi
-      DATABASE_URL: postgresql://USERNAME_DATABASE:PASSWORD_DATABASE@NAMA_HOST/DNS_DB:5432/NAMA_DATABSE
+      DATABASE_URL: postgresql://USERNAME_DATABASE:PASSWORD_DATABASE@DNS_DB:5432/NAMA_DATABSE
     # Networks untuk postgres & aplikasi agar terhubung
     networks:
       - ___
