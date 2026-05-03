@@ -49,6 +49,7 @@ services:
 # Service untuk database postgress
   db:
     image: ___
+    container_name: ____
     restart: always
     # Environment Postgres ada 3
     environment:
@@ -65,6 +66,7 @@ services:
   aplikasi:
     # Agar compose dapat melakukan build image terhadap aplikasi
     build: ___
+    container_name: ____
     # Port Expose aplikasi
     ports:
       - ____
